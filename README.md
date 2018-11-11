@@ -77,9 +77,10 @@ botの名前はお好きにどうぞ。
 ### 環境変数を設定する
 lambda関数にslackのアクセストークンを渡すための設定をする。
 lambdaにはweb上で環境変数を設定できる仕組みがあるので、これを利用する。
+
 `環境変数`で以下のように設定する。
-    - SLACK_APP_AUTH_TOKEN : Slack OAuth & PermissionsにあるOAuth Access Tokenをコピペ
-    - SLACK_BOT_USER_ACCESS_TOKEN : Slack OAuth & PermissionsにあるBot User OAuth Access Tokenをコピペ
+- SLACK_APP_AUTH_TOKEN : Slack OAuth & PermissionsにあるOAuth Access Tokenをコピペ
+- SLACK_BOT_USER_ACCESS_TOKEN : Slack OAuth & PermissionsにあるBot User OAuth Access Tokenをコピペ
     
 ### 実際に使ってみる
 これで設定が完了したので、さっそく使ってみよう。
